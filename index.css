@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  margin: 40px 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  border: none;
+  height: 60px;
+  width: 80px;
+}
+
+.color-scheme,
+.hex-codes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.hex-codes {
+  text-align: center;
+}
+
+.color-scheme > div {
+  height: 75vh;
+  width: 100%;
+}
+
+button {
+  background: white;
+  border: 2px solid lightgrey;
+  border-radius: 8px;
+  width: 15vw;
+  height: 60px;
+  font-size: 17px;
+}
+
+select {
+  width: 50vw;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+}
